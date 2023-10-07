@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=Source+Sans+Pro&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+footer{
+    background: #ff6b28;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+    color: #ff6b28;
+}
+
+p,li{
+    line-height: 30px;
+}
+
+li{
+    margin-bottom: 14px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+
+a:hover{
+    background: #ff5100;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background: #ff6b28;
+    padding: 16px;
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background: #aa3904;;
+}
+
+.btn:active{
+    background: #ff510073;;
+}
+.barra-top{
+    background: #ff6b28;
+    padding: 10px;
+    text-align: center;
+}
+.cabecalho{
+    background-image: url('img/hero_bolo.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+}
+
+.conteudo{
+    margin:auto;
+    max-width: 990px;
+    padding: 0 40px;
+    margin-top: 100px;
+}
+
+.titulo-principal{
+    color: #ff6b28;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.card-ingredientes{
+    padding: 70px 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    cursor: url('img/cursor_ingredientes.png'), auto;
+    transition: 0.8s;
+}
+
+.card-ingredientes:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+.card-modo-preparo{
+    padding: 70px 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    cursor: url('img/cursor_preparo.png'), auto;
+    transition: 0.8s;
+}
+.card-modo-preparo:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+.card-intruções-adicionais{
+    padding: 70px 100px;
+    margin-bottom: 50px;
+    border-radius: 20px;
+    cursor: url('img/cursor_intrucoes.png'), auto;
+    transition: 0.8s;
+}
+.card-intruções-adicionais:hover{
+    box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+.lista-ingredientes{
+    margin-bottom: 50px;
+}
